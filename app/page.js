@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="p-6">
+    <main className="p-6 bg-white">
       <div class="relative" id="home">
         <div
           aria-hidden="true"
