@@ -3,8 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="p-6 bg-white">
-      <div class="relative" id="home">
+<main className="p-6 bg-gray-100">      <div class="relative" id="home">
         <div
           aria-hidden="true"
           class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 "
