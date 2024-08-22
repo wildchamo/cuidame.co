@@ -55,7 +55,8 @@ export default function SolicitarCuidador() {
               <label className="block text-gray-700">Fecha</label>
               <input
                 {...register("date", { required: "La fecha es requerida" })}
-                type="date"
+                type="date" 
+                value={new Date().toISOString().split('T')[0]}
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               />
               {errors.date && <p className="text-red-500 text-sm mt-1 ml-1">{errors.date.message}</p>}
